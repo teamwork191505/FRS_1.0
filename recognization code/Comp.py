@@ -3,7 +3,7 @@ import face_recognition
 from certifi.__main__ import args
 
 # read 1st image and store encodings
-image = cv2.imread(args["Jeff_Bezoz"])  # args
+image = cv2.imread(args["Jeff_Bezoz.jpg"])  # args
 rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 boxes = face_recognition.face_locations(rgb, model=args["detection_method"])  # args

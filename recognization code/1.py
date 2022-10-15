@@ -22,6 +22,21 @@ while True:
     key = cv2.waitKey(1)
     if key == 5:
         break
+    # else:
+    #     try:
+    #         var = input()
+    #         # print('use keyboard interrupt')
+    #     except KeyboardInterrupt:
+    #         print('KeyboardInterrupt exception is caught')
+
 
 cap.release()
 cv2.destroyAllWindows()
+
+# try:
+#     var = input()
+#     print('use keyboard interrupt')
+# except KeyboardInterrupt:
+#     print('KeyboardInterrupt exception is caught')
+# else:
+#     print('no exception found')
