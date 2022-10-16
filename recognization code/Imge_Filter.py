@@ -27,11 +27,3 @@ for hue in range(0, 179,5):
             cv2.imwrite(os.path.join(path2, 'black-white_'+str(i)+'.jpg'), mask)
             i=i+1
             cv2.waitKey(0)
-
-
-
-
-
-
-
-
